@@ -1,0 +1,11 @@
+.title {
+  margin-bottom: clamp(20px, 3.75vw, 54px);
+  margin-left: 0;
+  max-width: calc(859px + 2 * var(--page-padding));
+}
+
+.description {
+  margin-bottom: clamp(20px, 4vw, 57px);
+  margin-left: 0;
+  max-width: calc(859px + 2 * var(--page-padding));
+}

@@ -1,0 +1,31 @@
+.container {
+  --width: clamp(250px, 24vw, 344px);
+  width: var(--width);
+}
+
+.double-width {
+  width: clamp(500px, 48vw, 688px);
+}
+
+.image-container {
+  position: relative;
+  height: var(--width);
+  margin-bottom: clamp(14px, 2.22vw, 32px);
+  overflow: hidden;
+}
+
+.image-container img {
+  object-fit: cover;
+}
+
+.circle {
+  border-radius: 600px;
+}
+
+.petal {
+  border-radius: clamp(160px, 15.3vw, 220px) 0px;
+}
+
+.title {
+  margin-bottom: clamp(8px, 1.11vw, 16px);
+}

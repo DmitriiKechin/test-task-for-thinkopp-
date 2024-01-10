@@ -1,0 +1,3 @@
+.page {
+  padding-top: clamp(32px, 9vw, 128px);
+}

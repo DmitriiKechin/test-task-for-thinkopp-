@@ -1,0 +1,33 @@
+.swiper-slide {
+  position: relative;
+  left: var(--page-padding);
+  width: auto;
+}
+
+/* .swiper-slide:first-child {
+  margin-left: var(--page-padding);
+} */
+
+.swiper-slide:last-child {
+  margin-right: var(--page-padding);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--page-padding);
+  margin-top: clamp(20px, 3vw, 40px);
+}
+
+.button {
+  stroke: var(--grey-light);
+  position: relative;
+  width: clamp(100px, 12.6vw, 181px);
+  padding: 12px 8px 12px 0px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    stroke: var(--grey-medium-dark);
+  }
+}
