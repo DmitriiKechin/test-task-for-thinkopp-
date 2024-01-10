@@ -24,6 +24,8 @@
   position: relative;
   width: clamp(100px, 12.6vw, 181px);
   padding: 12px 8px 12px 0px;
+
+  transition: stroke 0.3s ease-in-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
