@@ -45,14 +45,14 @@ export const Slider: FC<SliderProps> = ({ slidesElements }) => {
             viewBox="0 0 173 23"
             fill="none"
           >
-            <line x1="1" y1="11.5" x2="173" y2="11.5" stroke-width="3" />
+            <line x1="1" y1="11.5" x2="173" y2="11.5" strokeWidth="3" />
             <path
               d="M12 0V0C12 6.07513 7.07513 11 0.999998 11L-1.33918e-06 11"
-              stroke-width="3"
+              strokeWidth="3"
             />
             <path
               d="M12 23V23C12 16.9249 7.07513 12 1 12L6.11999e-07 12"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </svg>
         </button>
@@ -68,14 +68,14 @@ export const Slider: FC<SliderProps> = ({ slidesElements }) => {
             viewBox="0 0 173 23"
             fill="none"
           >
-            <line x1="0" y1="11.5" x2="173" y2="11.5" stroke-width="3" />
+            <line x1="0" y1="11.5" x2="173" y2="11.5" strokeWidth="3" />
             <path
               d="M161 0V0C161 6.07513 165.925 11 172 11L173 11"
-              stroke-width="3"
+              strokeWidth="3"
             />
             <path
               d="M161 23V23C161 16.9249 165.925 12 172 12L173 12"
-              stroke-width="3"
+              strokeWidth="3"
             />
           </svg>
         </button>
